@@ -5,11 +5,11 @@ LABEL AboutImage "Alpine_Chromium_NoVNC"
 LABEL Maintainer "Apurv Vyavahare <apurvvyavahare@gmail.com>"
 
 #VNC Server Password
-ENV	VNC_PASS="CHANGE_IT" \
+ENV	VNC_PASS="skibidi" \
 #VNC Server Title(w/o spaces)
 	VNC_TITLE="Chromium" \
 #VNC Resolution(720p is preferable)
-	VNC_RESOLUTION="1280x720" \
+	VNC_RESOLUTION="1920x1080" \
 #VNC Shared Mode
 	VNC_SHARED=false \
 #Local Display Server Port
